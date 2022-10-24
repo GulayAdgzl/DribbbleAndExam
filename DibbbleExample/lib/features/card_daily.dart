@@ -30,7 +30,8 @@ class _CardDailyState extends State<CardDaily> {
                       height: 200,
                       child: Column(
                         children: [
-                          Image.asset(ImageEnums.card1.toPath),
+                         // Image.asset(ImageEnums.card1.toPath),
+                            ImageEnums.card1.toImage,
                           Expanded(
                             child: Text(
                               'Wrroom Show',
@@ -73,7 +74,8 @@ class _CardDailyState extends State<CardDaily> {
                       height: 200,
                       child: Column(
                         children: [
-                          Image.asset(ImageEnums.card2.toPath),
+                         // Image.asset(ImageEnums.card2.toPath),
+                            ImageEnums.card2.toImage,
                           SizedBox(height: 5),
                           Expanded(
                             child: Text(
