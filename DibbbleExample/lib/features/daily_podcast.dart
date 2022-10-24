@@ -31,7 +31,8 @@ class _DailyPodcastState extends State<DailyPodcast> {
               ),
               _sub1Text(context),
               _sub2Text(context),
-              Image.asset(ImageEnums.daily.toPath),
+             // Image.asset(ImageEnums.daily.toPath),
+               ImageEnums.daily.toImage,
               ElevatedButton(
                 onPressed: () {
                   Navigator.of(context)
