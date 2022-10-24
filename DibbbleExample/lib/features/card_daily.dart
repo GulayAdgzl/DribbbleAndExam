@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_full_learn/product/constant/image_enum.dart';
 
 class CardDaily extends StatefulWidget {
   const CardDaily({Key? key}) : super(key: key);
@@ -29,7 +30,7 @@ class _CardDailyState extends State<CardDaily> {
                       height: 200,
                       child: Column(
                         children: [
-                          Image.asset('assets/images/card1.png'),
+                          Image.asset(ImageEnums.card1.toPath),
                           Expanded(
                             child: Text(
                               'Wrroom Show',
@@ -72,7 +73,7 @@ class _CardDailyState extends State<CardDaily> {
                       height: 200,
                       child: Column(
                         children: [
-                          Image.asset('assets/images/card2.png'),
+                          Image.asset(ImageEnums.card2.toPath),
                           SizedBox(height: 5),
                           Expanded(
                             child: Text(
