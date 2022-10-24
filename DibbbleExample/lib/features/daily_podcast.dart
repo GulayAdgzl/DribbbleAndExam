@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_full_learn/product/constant/image_enum.dart';
 import 'package:flutter_full_learn/product/widget/Keys/Project_keys.dart';
 
 import '../product/Colors/Project_color.dart';
@@ -30,7 +31,7 @@ class _DailyPodcastState extends State<DailyPodcast> {
               ),
               _sub1Text(context),
               _sub2Text(context),
-              Image.asset('assets/images/daily.png'),
+              Image.asset(ImageEnums.daily.toPath),
               ElevatedButton(
                 onPressed: () {
                   Navigator.of(context)
